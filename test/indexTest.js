@@ -40,10 +40,10 @@ describe('basic math functions', function () {
     expect(divide(a, b)).toEqual(a / b)
   })
   
-  it('increment(n) increments n and returns the result', function() {
+  it(
+    'increment(n) increments n and returns the result', function() {
     expect(increment(a)).toEqual(a + 1)
   })
-  
   it('decrement(n) decrements n and returns the result', function() {
     expect(decrement(a)).toEqual(a - 1)
   })
